@@ -102,7 +102,7 @@ var MENU = {
         },
         {
             "id": "Lays_Cebola_70",
-            "img": "./img/cardapio/salgadinho/lays_Cebola.webp",
+            "img": "./img/cardapio/salgadinho/lays_cebola.webp",
             "name": "Lays Cebola 70g",
             "dsc": "Lays Cebola 70g",
             "price": 6.99
@@ -130,70 +130,70 @@ var MENU = {
         },
         {
             "id": "Lays_Cebola_35",
-            "img": "./img/cardapio/salgadinho/lays_Cebola35.jpg",
+            "img": "./img/cardapio/salgadinho/lays_cebola35.jpg",
             "name": "Lays Cebola 35g",
             "dsc": "Lays Cebola 35g",
             "price": 3.62
         },
         {
             "id": "Cheetos_requeijão_105",
-            "img": "./img/cardapio/salgadinho/Cheetos_Requeijao.webp",
+            "img": "./img/cardapio/salgadinho/cheetos_requeijao.webp",
             "name": "Cheetos Requeijão 105g",
             "dsc": "Cheetos Requeijão 105g",
             "price": 6.26
         },
         {
             "id": "Cheetos_Lua_95",
-            "img": "./img/cardapio/salgadinho/Cheetos_Lua.webp",
+            "img": "./img/cardapio/salgadinho/cheetos_lua.webp",
             "name": "Cheetos Lua 95g",
             "dsc": "Cheetos Lua 95g",
             "price": 6.26
         },
         {
             "id": "Cheetos_Mix_82",
-            "img": "./img/cardapio/salgadinho/Cheetos_Mix.jpg",
+            "img": "./img/cardapio/salgadinho/cheetos_mix.jpg",
             "name": "Cheetos Mix 82g",
             "dsc": "Cheetos Mix 82g",
             "price": 6.26
         },
         {
             "id": "Cebolitos_91",
-            "img": "./img/cardapio/salgadinho/Cebolitos91.webp",
+            "img": "./img/cardapio/salgadinho/cebolitos91.webp",
             "name": "Cebolitos 91g",
             "dsc": "Cebolitos 91g",
             "price": 6.99
         },
         {
             "id": "Cebolitos_34",
-            "img": "./img/cardapio/salgadinho/Cebolitos34.jpg",
+            "img": "./img/cardapio/salgadinho/cebolitos34.jpg",
             "name": "Cebolitos 34g",
             "dsc": "Cebolitos 34g",
             "price": 2.92
         },
         {
             "id": "Baconzitos_86",
-            "img": "./img/cardapio/salgadinho/Baconzitos86.webp",
+            "img": "./img/cardapio/salgadinho/baconzitos86.webp",
             "name": "Baconzitos 86g",
             "dsc": "Baconzitos 86g",
             "price": 6.99
         },
         {
             "id": "Baconzitos_34",
-            "img": "./img/cardapio/salgadinho/Baconzitos34.webp",
+            "img": "./img/cardapio/salgadinho/baconzitos34.webp",
             "name": "Baconzitos 34g",
             "dsc": "Baconzitos 34g",
             "price": 2.92
         },
         {
             "id": "Amendoim_japonês_400",
-            "img": "./img/cardapio/salgadinho/Amendoin_Japones.webp",
+            "img": "./img/cardapio/salgadinho/amendoin_japones.webp",
             "name": "Amendoim Japonês 400g",
             "dsc": "Amendoim Japonês 400g",
             "price": 5.99
         },
         {
             "id": "Amendoim_semPele_100",
-            "img": "./img/cardapio/salgadinho/Amendoin_sempele.webp",
+            "img": "./img/cardapio/salgadinho/amendoin_sempele.webp",
             "name": "Amendoim sem Pele 100g",
             "dsc": "Amendoim sem Pele 100g",
             "price": 5.99
@@ -207,35 +207,35 @@ var MENU = {
         },
         {
             "id": "Pringles_Original_104",
-            "img": "./img/cardapio/salgadinho/Pringes_Original.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_original.jpg",
             "name": "Pringles Original 104g",
             "dsc": "Pringles Original 104g",
             "price": 8.49
         },
         {
             "id": "Pringles_Cebola_104",
-            "img": "./img/cardapio/salgadinho/Pringes_Cebola.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_cebola.jpg",
             "name": "Pringles Cebola 104g",
             "dsc": "Pringles Cebola 104g",
             "price": 8.49
         },
         {
             "id": "Pringles_Queijo_104",
-            "img": "./img/cardapio/salgadinho/Pringes_Queijo.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_queijo.jpg",
             "name": "Pringles Queijo 104g",
             "dsc": "Pringles Queijo 104g",
             "price": 8.49
         },
         {
             "id": "Pringles_Churrasco_104",
-            "img": "./img/cardapio/salgadinho/Pringes_Churrasco.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_churrasco.jpg",
             "name": "Pringles Churrasco 104g",
             "dsc": "Pringles Churrasco 104g",
             "price": 8.49
         },
         {
             "id": "Pringles_Cheedar_e_Bacon_104",
-            "img": "./img/cardapio/salgadinho/Pringes_CheedarBacon.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_cheedarbacon.jpg",
             "name": "Pringles Cheedar e Bacon 104g",
             "dsc": "Pringles Cheedar e Bacon 104g",
             "price": 8.49
@@ -249,7 +249,7 @@ var MENU = {
         },
         {
             "id": "Torcida_PimentaMexicana_60",
-            "img": "./img/cardapio/salgadinho/torcida_Pimenta_Mexicana60.webp",
+            "img": "./img/cardapio/salgadinho/torcida_pimenta_mexicana60.webp",
             "name": "Torcida Pimenta Mexicana 60g",
             "dsc": "Torcida Pimenta Mexicana 60g",
             "price": 1.85
@@ -263,14 +263,14 @@ var MENU = {
         },
         {
             "id": "Torcida_Queijo_60",
-            "img": "./img/cardapio/salgadinho/torcida_Queijo60.webp",
+            "img": "./img/cardapio/salgadinho/torcida_queijo60.webp",
             "name": "Torcida Queijo 60g",
             "dsc": "Torcida Queijo 60g",
             "price": 1.85
         },
         {
             "id": "Torcida_CamarãocomPimenta_60",
-            "img": "./img/cardapio/salgadinho/torcida_Camarrao60.jpg",
+            "img": "./img/cardapio/salgadinho/torcida_camarrao60.jpg",
             "name": "Torcida Camarão com Pimenta 60g",
             "dsc": "Torcida Camarão com Pimenta 60g",
             "price": 1.85
@@ -284,7 +284,7 @@ var MENU = {
         },
         {
             "id": "Torcida_PãodeAlho_60",
-            "img": "./img/cardapio/salgadinho/torcida_Pao_de_Alho60.png",
+            "img": "./img/cardapio/salgadinho/torcida_pao_de_alho60.png",
             "name": "Torcida Pão de Alho 60g",
             "dsc": "Torcida Pão de Alho 60g",
             "price": 1.85
@@ -323,7 +323,7 @@ var MENU = {
         },
         {
             "id": "Wafer_Morango_bauducco_140g",
-            "img": "./img/cardapio/bolachas/bauducco_wafer_Morango140g.webp",
+            "img": "./img/cardapio/bolachas/bauducco_wafer_morango140g.webp",
             "name": "Wafer Morango Bauducco 140g",
             "dsc": "Wafer Morango Bauducco 140g",
             "price": 2.79
@@ -358,7 +358,7 @@ var MENU = {
         },
         {
             "id": "Recheado_Morango_Visconti_125g",
-            "img": "./img/cardapio/bolachas/viscont_recheado_Morango125g.webp",
+            "img": "./img/cardapio/bolachas/viscont_recheado_morango125g.webp",
             "name": "Recheado Morango Visconti 125g",
             "dsc": "Recheado Morango Visconti 125g",
             "price": 2.85
