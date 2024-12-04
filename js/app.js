@@ -10,7 +10,7 @@ var MEU_ENDERECO = null
 
 var VALOR_CARRINHO = 0
 
-var VALOR_ENTREGA = 5
+var VALOR_ENTREGA = 0
 
 var CELULAR_ESTABELECIMENTO = "5511951085239"
 
@@ -297,7 +297,6 @@ cardapio.metodos = {
         VALOR_CARRINHO = 0
 
         $("#lblSubTotal").text('R$ 0,00')
-        $("#lblValorEntrega").text('+ R$ 0,00')
         $("#lblValorTotal").text('R$ 0,00')
 
         $.each(MEU_CARRINHO, (i, e) => {
@@ -306,7 +305,6 @@ cardapio.metodos = {
 
             if ((i + 1) == MEU_CARRINHO.length) {
                 $("#lblSubTotal").text(`R$ ${VALOR_CARRINHO.toFixed(2).replace('.', ',')}`)
-                $("#lblValorEntrega").text(`+ R$ ${VALOR_ENTREGA.toFixed(2).replace('.', ',')}`)
                 $("#lblValorTotal").text(`R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}`)
             }
         })
