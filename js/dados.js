@@ -87,6 +87,27 @@ var MENU = {
             "price": 10.49
         },
         {
+            "id": "ruffles_original_32",
+            "img": "./img/cardapio/salgadinho/ruffles_original_32g.webp",
+            "name": "Ruffles Original 32g",
+            "dsc": "Ruffles Original 32g",
+            "price": 2.92
+        },
+        {
+            "id": "ruffles_churrasco_32",
+            "img": "./img/cardapio/salgadinho/ruffles_churrasco_32g.webp",
+            "name": "Ruffles Churrasco 32g",
+            "dsc": "Ruffles Churrasco 32g",
+            "price": 2.92
+        },
+        {
+            "id": "ruffles_cebola_32",
+            "img": "./img/cardapio/salgadinho/ruffles_cebola_32g.webp",
+            "name": "Ruffles Cebola 32g",
+            "dsc": "Ruffles Cebola 32g",
+            "price": 2.92
+        },
+        {
             "id": "Fandangos_presunto_105",
             "img": "./img/cardapio/salgadinho/fandangos_presunto.webp",
             "name": "Fandangos Presunto 105g",
@@ -99,6 +120,20 @@ var MENU = {
             "name": "Fandangos Queijo 105g",
             "dsc": "Fandangos Queijo 105",
             "price": 6.26
+        },
+        {
+            "id": "Fandangos_presunto_37g",
+            "img": "./img/cardapio/salgadinho/fandangos_presunto_37g.webp",
+            "name": "Fandangos Presunto 37g",
+            "dsc": "Fandangos Presunto 37",
+            "price": 2.20
+        },
+        {
+            "id": "Fandangos_queijo_37g",
+            "img": "./img/cardapio/salgadinho/fandangos_queijo_37g.webp",
+            "name": "Fandangos Queijo 37g",
+            "dsc": "Fandangos Queijo 37",
+            "price": 2.20
         },
         {
             "id": "Doritos_75",
@@ -176,6 +211,34 @@ var MENU = {
             "name": "Cheetos Mix 82g",
             "dsc": "Cheetos Mix 82g",
             "price": 6.26
+        },
+        {
+            "id": "Cheetos_bolaqueijo_37g",
+            "img": "./img/cardapio/salgadinho/cheetos_bolaqueijo_37g.webp",
+            "name": "Cheetos Bola Queijo Suíço 37g",
+            "dsc": "Cheetos Bola Queijo Suíço 37g",
+            "price": 2.49
+        },
+        {
+            "id": "Cheetos_luaparmesao_40g",
+            "img": "./img/cardapio/salgadinho/cheetos_luaparmesao_40g.webp",
+            "name": "Cheetos Lua Parmesão 40g",
+            "dsc": "Cheetos Lua Parmesão 40g",
+            "price": 2.49
+        },
+        {
+            "id": "Cheetos_ondarequeijao_45g",
+            "img": "./img/cardapio/salgadinho/cheetos_ondarequeijao_45g.webp",
+            "name": "Cheetos Requeijão 45g",
+            "dsc": "Cheetos Requeijão 45g",
+            "price": 2.49
+        },
+        {
+            "id": "Cheetos_mix_41g",
+            "img": "./img/cardapio/salgadinho/cheetos_mix_41g.webp",
+            "name": "Cheetos Mix 41g",
+            "dsc": "Cheetos Mix 41g",
+            "price": 2.49
         },
         {
             "id": "Cebolitos_91",
