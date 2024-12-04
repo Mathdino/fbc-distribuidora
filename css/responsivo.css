@@ -238,4 +238,7 @@
     .footer-list{
         font-size: 0.9rem;
     }
+    .busca {
+        max-width: 60px;
+    }
 }
