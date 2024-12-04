@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/atualizacao.css">
+    <title>FBC | Distribuidora</title>
+    <link rel="icon" href="./img/Favicon.ico" type="image/x-icon">
+       
+</head>
+
+<body>
+    <div class="container-mensagens" id="container-mensagens">
+    </div>
+    <a id="btnAbrirCarrinho" class="botao-carrinho hidden animated bounceIn" onclick="cardapio.metodos.abrirCarrinho(true)">
+        <div class="badge-total-carrinho">0</div>
+        <i class="fa fa-shopping-bag"></i>
+    </a>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg pl-0 pr-0 col-one">
+                <a class="navbar-brand wow fadeIn">
+                    <img src="img/Logo FBC.png" width='160' alt="logo Distribuidora FBC" class="img-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto mr-auto wow fadeIn textres">
+                        <li class="nav-item"><a href="#promocoes" class="nav-link">Promoções</a></li>
+                        <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li class="nav-item"><a href="#cardapio" class="nav-link">Produtos</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+
+                    <a class="btn btn-white btn-icon wow fadeIn" onclick="cardapio.metodos.abrirCarrinho(true)">
+                        Meu carrinho <span class="icon">
+                            <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
+                            <i class="fa fa-shopping-bag"></i>
+                        </span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one">
+                        <div class="d-flex text-banner">
+                            <h1 class="wow fadeInLeft"><strong>Escolha seu produto <strong class="color-primary">com excelentes ofertas.</strong></strong>
+                            </h1>
+                            <p class="wow fadeInLeft delay-02s">Aproveite nossas ofertas! Escolha o que desejar e receber em seu comércio de forma rápida e segura.</p>
+
+                            <div class="wow fadeIn delay-05s">
+                                <a href="#cardapio" class="btn btn-yellow mt-4 mr-3">
+                                    Ver Produtos
+                                </a>
+
+                                <a href="#" class="btn btn-white btn-icon btn-icon-left mt-4" id="btnLigar">
+                                    <span class="icon-left">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    (11) 95108-5239 
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://www.instagram.com/distribuidora.fbc/#" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-07s">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61567018840424&locale=pt_BR" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-07s">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" target="_blank" id="btnWhatsapp" class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-07s">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="col-6 no-mobile">
+                        <div class="wow fadeIn delay-02s"></div>
+                        <div class="d-flex img-banner wow fadeIn delay-05s">
+                            <img class="imagemcaminhao" src="img/caminhao.svg" alt="Imagem de Caminhão">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <div class="background-servicos"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-one text-center mb-5 wow fadeIn">
+                        <span class="hint-title"><strong>Serviços</strong></span>
+                        <h1 class="title produt">
+                            <strong>Como são nossos serviços?</strong>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp">
+                        <div class="card-icon text-center">
+                            <img src="img/servico-1.svg" width="200">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><strong>Fácil de pedir</strong></p>
+                            <span>
+                                Você só precisa de alguns passos para encomendar sua mercadoria.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one wow fadeInUp">
+                        <div class="card-icon text-center ">
+                            <img src="img/servico-2.svg" width="250">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><strong>Entrega rápida</strong></p>
+                            <span>
+                                Entregamos para região de São Paulo, sempre com pontualidade, rapidez e segurança.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one wow fadeInUp imgg3">
+                        <div class="card-icon text-center ">
+                            <img class="imagem3" src="img/servico-3.svg" width="200">
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><strong>Melhor qualidade</strong></p>
+                            <span>
+                                Não só a rapidez na entrega, a qualidade também é o nosso forte.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cardapio" id="cardapio">
+
+            <div class="background-cardapio"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-one text-center mb-5 wow fadeIn">
+                        <span class="hint-title"><strong>Produtos</strong></span>
+                        <h1 class="title produt">
+                            <strong>Conheça os produtos que vendemos</strong>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 container-menu col-one wow fadeInUp text-center" >
+                        <a id = "menu-burgers" class="btn btn-white btn-sm mr-3 active" onclick="cardapio.metodos.obterItensCardapio('burgers')">&nbsp; Salgadinhos</a>
+                        <a id = "menu-pizzas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('pizzas')">&nbsp; Energéticos</a>
+                        <a id = "menu-churrasco" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('churrasco')">&nbsp; Refrigerantes</a>
+                        <a id = "menu-steaks" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('steaks')">&nbsp; Doces</a>
+                        <a id = "menu-bebidas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('bebidas')">&nbsp; Bolachas</a>
+                        <a id = "menu-sobremesas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('sobremesas')">&nbsp; Diversos</a>
+                    </div>
+
+                    <div class="col-12 col-one">
+                        <div class="row" id="itensCardapio">
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-one text-center wow fadeIn">
+                        <a id="btnVerMais" class="btn btn-white btn-sm" onclick="cardapio.metodos.verMais()">
+                            Ver mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reserva" id="promocoes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-one">
+                        <div class="card-secondary wow fadeInUp">
+                            <div class="row">
+                                <div class="col-12 col-lg-7 col-md-7 col-sm-12 promo">
+                                    <span class="hint-title"><strong>Promoções</strong></span>
+                                    <h1 class="title2">
+                                        <strong>Quer receber nossas promoções?</strong>
+                                    </h1>
+                                    <p class="pr-6">
+                                        Mande uma mensagem clicando no botão abaixo.
+                                    </p>
+                                    <a class="btn btn-yellow mt-4 wow fadeIn delay-05s" href="#" id="btnReserva" target="_blank">
+                                        Receber Promoções
+                                    </a>
+                                </div>
+                                <div class="col-5 no-mobile">
+                                    <div class="card-reserva"></div>
+                                    <div class="d-flex img-banner">
+                                        <img src="img/imagem promocoes.svg" alt="imagem de Promoções">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <a class="navbar-brand wow fadeIn" href="#">
+                    <img src="img/Logo FBC.png" width='160' alt="logo Distribuidora FBC" class="img-logo">
+                </a>
+                <div class="social">
+                    <a href="https://www.instagram.com/distribuidora.fbc/#" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-07s">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61567018840424&locale=pt_BR" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-07s">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/${5511951085239}?text=${encode}" target="_blank" id="btnWhatsapp" class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-07s">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Institucional</h3>
+                </li>
+                <li>
+                    <a href="./reembolso.html" class="footer-link">Política de Reembolso</a>
+                </li>
+                <li>
+                    <a href="./privacidade.html" class="footer-link">Política de Privacidade</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Contato</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Contato</h3>
+                </li>
+                <li>
+                    <img src="./img/icon-tempo.svg" alt="Icone relogio">
+                    <span class="footer-link">Seg. a Sex. - 08:00 às 18:00hs <br> Sáb. - 08:00 às 12:00h</span>
+                </li>
+                <li>
+                    <img src="./img/icon-caminhao.svg" alt="Icone caminhão">
+                    <span class="footer-link">Entrega para todo São Paulo</span>
+                </li>
+                <li>
+                    <img src="./img/icon-email.svg" alt="Icone e-mail">
+                    <span class="footer-link">distribuidorafbc5@gmail.com</span>
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 Todos direitos reservados FBC Distribuidora
+        </div>
+    </footer>
+    <div class="desenvolvimento">
+        <p>Produzido por</p>
+        <a href="https://www.linkedin.com/in/matheus-moraes-dino" target="_blank"><img src="./img/mb.png" alt="Logo MB - Matheus Bernardino"></a>
+    </div>
+
+
+
+    <div class="modal-full hidden animated fadeIn" id="modalCarrinho">
+        <div class="m-header">
+            <div class="container">
+                <a class="btn btn-white btn-sm float-right" onclick="cardapio.metodos.abrirCarrinho(false)">
+                    Fechar
+                </a>
+                <div class="etapas">
+                    <div class="etapa etapa1 active">1</div>
+                    <div class="etapa etapa2">2</div>
+                    <div class="etapa etapa3">3</div>
+                </div>
+                <p class="title-carrinho mt-4">
+                    <strong id="lblTituloEtapa">Seu carrinho:</strong>
+                </p>
+            </div>
+        </div>
+        <div class="m-body">
+            <div class="container">
+                <div class="row mr-0 ml-0 hidden animated fadeIn" id="itensCarrinho">
+
+                    
+                </div>
+
+                <div class="row mr-0 ml-0 hidden animated fadeIn" id="localEntrega">
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <div class="form-group container-cep">
+                            <label>CEP:</label>
+                            <input id="txtCEP" type="text" class="form-control">
+                            <a class="btn btn-yellow btn-sm" onclick='cardapio.metodos.buscarCEP()'><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-8 no-mobile"></div>
+
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>Endereço:</label>
+                            <input type="text" id="txtEndereco" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label>Bairro:</label>
+                            <input type="text" id="txtBairro" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                        <div class="form-group">
+                            <label>Número:</label>
+                            <input type="text" id="txtNumero" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>Cidade:</label>
+                            <input type="text" id="txtCidade" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                        <div class="form-group">
+                            <label>Complemento:</label>
+                            <input type="text" id="txtComplemento" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                        <div class="form-group">
+                            <label>UF:</label>
+                            <select id="ddlUF" class="form-control">
+                                <option value="-1">...</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rowmr-0 ml-0 animated fadeIn" id="resumoCarrinho">
+                    <div class="col-12">
+                        <p class="title-carrinho mt-4">
+                            <strong>Itens do pedido:</strong>
+                        </p>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row" id="listaItensResumo">
+
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="title-carrinho mt-4">
+                            <strong>Local da Entrega</strong>
+                        </p>
+                    </div>
+
+                    <div class="col-12 item-carrinho resumo">
+                        <div class="img-map">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="dados-produto">
+                            <p class="texto-endereco">
+                                <strong id="resumoEndereco"></strong>
+                            </p>
+                            <p class="cidade-endereco" id="cidadeEndereco"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="m-footer">
+            <div class="container">
+                <div class="container-total text-right mb-4">
+                    <p class="mb-0">
+                        <span>Subtotal:</span>
+                        <span id="lblSubTotal">R$ 0,00</span>
+                    </p>
+                    <p class="mb-0 texto-entrega">
+                        <span><i class="fas fa-motorcycle"></i> Entrega</span>
+                        <span id="lblValorEntrega">+ R$ 0,00</span>
+                    </p>
+                    <p class="mb-0 texto-total">
+                        <span><strong>Total:</strong></span>
+                        <span class="valor-total"><strong id="lblValorTotal">R$ 0,00</strong></span>
+                    </p>
+                </div>
+                <a class="btn btn-yellow float-right" id="btnEtapaPedido" onclick="cardapio.metodos.carregarEndereco()">Continuar</a>
+                <a class="btn btn-yellow float-right hidden" id="btnEtapaEndereco" onclick="cardapio.metodos.resumoPedido()">Revisar Pedido</a>
+
+                <a class="btn btn-yellow float-right hidden" id="btnEtapaEnviarResumo" href="#" target="_blank">Enviar Pedido</a>
+                <a class="btn btn-white float-right mr-3 hidden" id="btnVoltar" onclick="cardapio.metodos.voltarEtapa()">Voltar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/modernizr-3.5.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/dados.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>new WOW().init()</script>
+
+</body>
+
+</html>
