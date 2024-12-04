@@ -2,38 +2,59 @@ var MENU = {
     "churrasco": [
         {
             "id": "Coca_cola_2L",
-            "img": "./img/cardapio/refrigerante/cocacola_2l.webp",
+            "img": "./img/cardapio/bebidas/cocacola_2l.webp",
             "name": "Coca-cola 2L",
             "dsc": "Coca-cola 2L",
             "price": 8.29
         },
         {
             "id": "Coca_cola_1-5L",
-            "img": "./img/cardapio/refrigerante/cocacola_1l500.webp",
+            "img": "./img/cardapio/bebidas/cocacola_1l500.webp",
             "name": "Coca-cola 1,5L",
             "dsc": "Coca-cola 1,5L",
             "price":  7.99
         },
         {
             "id": "Coca_cola_600ml",
-            "img": "./img/cardapio/refrigerante/cocacola_600ml.webp",
+            "img": "./img/cardapio/bebidas/cocacola_600ml.webp",
             "name": "Coca-cola 600ml",
             "dsc": "Coca-cola 600ml",
             "price":  4.05
         },
         {
             "id": "Coca_cola_350ml",
-            "img": "./img/cardapio/refrigerante/cocacola_350ml.webp",
+            "img": "./img/cardapio/bebidas/cocacola_350ml.webp",
             "name": "Coca-cola 350ml",
             "dsc": "Coca-cola 350ml",
             "price": 2.99
         },
         {
             "id": "Guaraviton_500ml",
-            "img": "./img/cardapio/refrigerante/guaraviton_500ml.avif",
+            "img": "./img/cardapio/bebidas/guaraviton_500ml.avif",
             "name": "Guaraviton 500ml",
             "dsc": "Guaraviton 500ml",
             "price": 1.99
+        },
+        {
+            "id": "toddynho_200ml",
+            "img": "./img/cardapio/bebidas/toddynho_200ml.webp",
+            "name": "Toddynho 200ml c/27un ",
+            "dsc": "Toddynho 200ml c/27un",
+            "price": 63.45
+        },
+        {
+            "id": "kero_coco_200ml",
+            "img": "./img/cardapio/bebidas/kero_coco_200ml.webp",
+            "name": "Kero Coco 200ml c/27un ",
+            "dsc": "Kero Coco 200ml c/27un",
+            "price": 86.40
+        },
+        {
+            "id": "kero_coco_330ml",
+            "img": "./img/cardapio/bebidas/kero_coco_330ml.webp",
+            "name": "Kero Coco 330ml c/12un ",
+            "dsc": "Kero Coco 330ml c/12un",
+            "price": 84.60
         }
     ],
     "burgers": [
@@ -292,35 +313,35 @@ var MENU = {
         {
             "id": "Fofura_cebola_60",
             "img": "./img/cardapio/salgadinho/fofura_cebola_60g.webp",
-            "name": "Fofura Cebola 60g c/10",
+            "name": "Fofura Cebola 60g c/10un",
             "dsc": "Fofura Cebola 60g",
             "price": 18.90
         },
         {
             "id": "Fofura_churrasco_60",
             "img": "./img/cardapio/salgadinho/fofura_churrasco_60g.webp",
-            "name": "Fofura Churrasco 60g c/10",
+            "name": "Fofura Churrasco 60g c/10un",
             "dsc": "Fofura Churrasco 60g",
             "price": 18.90
         },
         {
             "id": "Fofura_queijo_60",
             "img": "./img/cardapio/salgadinho/fofura_queijo_60g.webp",
-            "name": "Fofura Queijo 60g c/10",
+            "name": "Fofura Queijo 60g c/10un",
             "dsc": "Fofura Queijo 60g",
             "price": 18.90
         },
         {
             "id": "Fofura_requeijão_60",
             "img": "./img/cardapio/salgadinho/fofura_requeijao_60g.webp",
-            "name": "Fofura Requeijão 60g c/10",
+            "name": "Fofura Requeijão 60g c/10un",
             "dsc": "Fofura Requeijão 60g",
             "price": 18.90
         },
         {
             "id": "Fofura_presunto_60",
             "img": "./img/cardapio/salgadinho/fofura_presunto_60g.webp",
-            "name": "Fofura Presunto 60g c/10",
+            "name": "Fofura Presunto 60g c/10un",
             "dsc": "Fofura Presunto 60g",
             "price": 18.90
         }
@@ -552,15 +573,15 @@ var MENU = {
         {
             "id": "Kinder_Ovo_c12",
             "img": "./img/cardapio/doces/kinder_ovocx12.webp",
-            "name": "Kinder Ovo c/12",
-            "dsc": "Kinder Ovo c/12",
+            "name": "Kinder Ovo c/12un",
+            "dsc": "Kinder Ovo c/12un",
             "price": 77.89
         },
         {
            "id": "Mentos_c16",
             "img": "./img/cardapio/doces/mentos_cx16.webp",
-            "name": "Mentos c/16",
-            "dsc": "Mentos c/16",
+            "name": "Mentos c/16un",
+            "dsc": "Mentos c/16un",
             "price": 27.05
         }
     ]
