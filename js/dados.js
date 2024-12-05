@@ -136,6 +136,13 @@ var MENU = {
             "price": 2.20
         },
         {
+            "id": "Doritos_37",
+            "img": "./img/cardapio/salgadinho/doritos37.jpg",
+            "name": "Doritos 37g",
+            "dsc": "Doritos 37g",
+            "price": 3.62
+        },
+        {
             "id": "Doritos_75",
             "img": "./img/cardapio/salgadinho/doritos75.webp",
             "name": "Doritos 75g",
