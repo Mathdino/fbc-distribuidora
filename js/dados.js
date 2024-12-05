@@ -285,8 +285,8 @@ var MENU = {
         {
             "id": "Amendoim_semPele_100",
             "img": "./img/cardapio/salgadinho/amendoin_sempele.webp",
-            "name": "Amendoim sem Pele 100g",
-            "dsc": "Amendoim sem Pele 100g",
+            "name": "Amendoim Sem Pele 100g",
+            "dsc": "Amendoim Sem Pele 100g",
             "price": 5.99
         },
         {
@@ -295,6 +295,20 @@ var MENU = {
             "name": "Ovinho 145g",
             "dsc": "Ovinho 145g",
             "price": 5.99
+        },
+        {
+            "id": "Amendoim_semPele_40",
+            "img": "./img/cardapio/salgadinho/amendoin_sempele40.webp",
+            "name": "Amendoim Sem Pele 40g",
+            "dsc": "Amendoim Sem Pele 40g",
+            "price": 2.55
+        },
+        {
+            "id": "Ovinho_65",
+            "img": "./img/cardapio/salgadinho/ovinho_65g.webp",
+            "name": "Ovinho 65g",
+            "dsc": "Ovinho 65g",
+            "price": 2.85
         },
         {
             "id": "Pringles_Original_104",
