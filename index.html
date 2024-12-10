@@ -306,12 +306,21 @@
                 </div>
 
                 <div class="row mr-0 ml-0 hidden animated fadeIn" id="localEntrega">
-
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="txtRazaoSocial">Razão Social:</label>
+                            <input type="text" id="txtRazaoSocial" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtCNPJ">CNPJ:</label>
+                            <input type="text" id="txtCNPJ" class="form-control">
+                        </div>
+                    </div>
                     <div class="col-12 col-lg-4 col-md-4 col-sm-12">
                         <div class="form-group container-cep">
                             <label>CEP:</label>
                             <input id="txtCEP" type="text" class="form-control">
-                            <a class="btn btn-yellow btn-sm busca" onclick='cardapio.metodos.buscarCEP()'><i class="fa fa-search"></i></a>
+                            <a class="btn btn-yellow btn-sm" onclick='cardapio.metodos.buscarCEP()'><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                     <div class="col-8 no-mobile"></div>

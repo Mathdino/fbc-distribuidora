@@ -368,51 +368,64 @@ cardapio.metodos = {
 
     // Validação antes de prosseguir para a etapa 3
     resumoPedido: () => {
-
-        let cep = $('#txtCEP').val().trim()
-        let endereco = $('#txtEndereco').val().trim()
-        let bairro = $('#txtBairro').val().trim()
-        let cidade = $('#txtCidade').val().trim()
-        let uf = $('#ddlUF').val().trim()
-        let numero = $('#txtNumero').val().trim()
-        let complemento = $('#txtComplemento').val().trim()
-
-        if(cep.length <= 0) {
-            cardapio.metodos.mensagem('Informe o CEP, por favor.')
-            $('#txtCEP').focus()
-            return
+        let cep = $('#txtCEP').val().trim();
+        let endereco = $('#txtEndereco').val().trim();
+        let bairro = $('#txtBairro').val().trim();
+        let cidade = $('#txtCidade').val().trim();
+        let uf = $('#ddlUF').val().trim();
+        let numero = $('#txtNumero').val().trim();
+        let complemento = $('#txtComplemento').val().trim();
+        let razaoSocial = $('#txtRazaoSocial').val().trim();
+        let cnpj = $('#txtCNPJ').val().trim();
+    
+        if (cep.length <= 0) {
+            cardapio.metodos.mensagem('Informe o CEP, por favor.');
+            $('#txtCEP').focus();
+            return;
         }
-
-        if(endereco.length <= 0) {
-            cardapio.metodos.mensagem('Informe o Endereço, por favor.')
-            $('#txtEndereco').focus()
-            return
+    
+        if (endereco.length <= 0) {
+            cardapio.metodos.mensagem('Informe o Endereço, por favor.');
+            $('#txtEndereco').focus();
+            return;
         }
-
-        if(bairro.length <= 0) {
-            cardapio.metodos.mensagem('Informe o Bairro, por favor.')
-            $('#txtBairro').focus()
-            return
+    
+        if (bairro.length <= 0) {
+            cardapio.metodos.mensagem('Informe o Bairro, por favor.');
+            $('#txtBairro').focus();
+            return;
         }
-
-        if(cidade.length <= 0) {
-            cardapio.metodos.mensagem('Informe a Cidade, por favor.')
-            $('#txtCidade').focus()
-            return
+    
+        if (cidade.length <= 0) {
+            cardapio.metodos.mensagem('Informe a Cidade, por favor.');
+            $('#txtCidade').focus();
+            return;
         }
-
-        if(uf == "-1") {
-            cardapio.metodos.mensagem('Informe a UF, por favor.')
-            $('#ddlUF').focus()
-            return
+    
+        if (uf == "-1") {
+            cardapio.metodos.mensagem('Informe a UF, por favor.');
+            $('#ddlUF').focus();
+            return;
         }
-
-        if(numero.length <= 0) {
-            cardapio.metodos.mensagem('Informe o Número, por favor.')
-            $('#txtNumero').focus()
-            return
+    
+        if (numero.length <= 0) {
+            cardapio.metodos.mensagem('Informe o Número, por favor.');
+            $('#txtNumero').focus();
+            return;
         }
-
+    
+        if (razaoSocial.length <= 0) {
+            cardapio.metodos.mensagem('Informe a Razão Social, por favor.');
+            $('#txtRazaoSocial').focus();
+            return;
+        }
+    
+        if (cnpj.length <= 0) {
+            cardapio.metodos.mensagem('Informe o CNPJ, por favor.');
+            $('#txtCNPJ').focus();
+            return;
+        }
+    
         MEU_ENDERECO = {
             cep: cep,
             endereco: endereco,
@@ -421,67 +434,64 @@ cardapio.metodos = {
             uf: uf,
             numero: numero,
             complemento: complemento,
-        }
-
-        cardapio.metodos.carregarEtapa(3)
-        cardapio.metodos.carregarResumo()
+            razaoSocial: razaoSocial,
+            cnpj: cnpj
+        };
+    
+        cardapio.metodos.carregarEtapa(3);
+        cardapio.metodos.carregarResumo();
     },
-
-    // Carrega a etapa Resumo do Pedido
-    carregarResumo: () => {
-        $('#listaItensResumo').html('')
-
-        $.each(MEU_CARRINHO, (i,e) => {
-            let temp = cardapio.templates.itemResumo.replace(/\${img}/g, e.img)
+        // Carrega a etapa Resumo do Pedido
+        carregarResumo: () => {
+            $('#listaItensResumo').html('')
+    
+            $.each(MEU_CARRINHO, (i, e) => {
+                let temp = cardapio.templates.itemResumo.replace(/\${img}/g, e.img)
                     .replace(/\${nome}/g, e.name)
                     .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
-                    .replace(/\${qntd}/g, e.qntd)
-
-                $("#listaItensResumo").append(temp)
-        })
-
-        $("#resumoEndereco").html(`${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`)
-        $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade} - ${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`)
- 
+                    .replace(/\${qntd}/g, e.qntd);
         
-        cardapio.metodos.finalizarPedido()
-    },
-
-    // Atualiza o link do botão do whatsapp
-    finalizarPedido: () => {
-
-        if (MEU_CARRINHO.length > 0 && MEU_ENDERECO != null) {
-
-            var texto = 'Olá! Gostaria de fazer um pedido:'
-            texto += `\n*Itens do pedido:* \n\n\${itens}`
-            texto += "\n*Endereço de entrega:*"
-            texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`
-            texto += `\n${MEU_ENDERECO.cidade} - ${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`
-            texto += `\n\n*Total (com entrega): R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}*`
-
-
-            var itens = ''
-
-            $.each(MEU_CARRINHO, (i, e) => {
-                itens += `*${e.qntd}x* ${e.name} .......  R$ ${e.price.toFixed(2).replace('.', ',')} \n`
-
-                if((i + 1) == MEU_CARRINHO.length) {
-
-                    texto = texto.replace(/\${itens}/g, itens)
-
-                    //Converte a URL
-                    let encode = encodeURI(texto)
-                    let URL = `https://wa.me/${CELULAR_ESTABELECIMENTO}?text=${encode}`
-
-                    $("#btnEtapaEnviarResumo").attr('href', URL)
-
-                }
-            })
-
-            
-        }
-
-    },
+                $("#listaItensResumo").append(temp);
+            });
+        
+            $("#resumoEndereco").html(`${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`);
+            $("#cidadeEndereco").html(`${MEU_ENDERECO.cidade} - ${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`);
+            $("#resumoRazaoSocial").html(`Razão Social: ${MEU_ENDERECO.razaoSocial}`);
+            $("#resumoCNPJ").html(`CNPJ: ${MEU_ENDERECO.cnpj}`);
+        
+            cardapio.metodos.finalizarPedido();
+        },
+        
+        // Atualiza o link do botão do whatsapp
+        finalizarPedido: () => {
+            if (MEU_CARRINHO.length > 0 && MEU_ENDERECO != null) {
+                var texto = 'Olá! Gostaria de fazer um pedido:';
+                texto += `\n*Itens do pedido:* \n\n\${itens}`;
+                texto += "\n*Informações da empresa:*" ;
+                texto += `\n*Razão Social:* ${MEU_ENDERECO.razaoSocial}`;
+                texto += `\n*CNPJ:* ${MEU_ENDERECO.cnpj}`;
+                texto += "\n\n*Endereço de entrega:*";
+                texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`;
+                texto += `\n${MEU_ENDERECO.cidade} - ${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`;
+                texto += `\n\n*Total do pedido: R$ ${(VALOR_CARRINHO + VALOR_ENTREGA).toFixed(2).replace('.', ',')}*`;
+        
+                var itens = '';
+        
+                $.each(MEU_CARRINHO, (i, e) => {
+                    itens += `*${e.qntd}x* ${e.name} .......  R$ ${e.price.toFixed(2).replace('.', ',')} \n`;
+        
+                    if ((i + 1) == MEU_CARRINHO.length) {
+                        texto = texto.replace(/\${itens}/g, itens);
+        
+                        // Converte a URL
+                        let encode = encodeURI(texto);
+                        let URL = `https://wa.me/${CELULAR_ESTABELECIMENTO}?text=${encode}`;
+        
+                        $("#btnEtapaEnviarResumo").attr('href', URL);
+                    }
+                });
+            }
+        },
 
     // Carrega o link do botão Reserva
     carregarBotaoReserva:() => {
@@ -510,25 +520,6 @@ cardapio.metodos = {
         $('#btnWhatsappFooter').attr('href', URL)
         
     },
-    
-
-    // Abre o depoimento
-    abrirDepoimento: (depoimento) => {
-        $('#depoimento-1').addClass('hidden')
-        $('#depoimento-2').addClass('hidden')
-        $('#depoimento-3').addClass('hidden')
-
-        $('#btnDepoimento-1').removeClass('active')
-        $('#btnDepoimento-2').removeClass('active')
-        $('#btnDepoimento-3').removeClass('active')
-
-        $('#depoimento-' + depoimento).removeClass('hidden')
-        $('#btnDepoimento-' + depoimento).addClass('active')
-    },
-    
-
-
-
     // Mensagens 
     mensagem: (texto, cor = 'red', tempo = 3500) => {
         let id = Math.floor(Date.now() * Math.random().toString())
