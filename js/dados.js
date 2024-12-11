@@ -483,10 +483,17 @@ var MENU = {
             "price": 2.79
         },
         {
-            "id": "Recheado_Bauducco_108g",
-            "img": "./img/cardapio/bolachas/bauducco_recheado108g.webp",
-            "name": "Recheado Bauducco 108g",
-            "dsc": "Recheado Bauducco 108g",
+            "id": "Recheado_Bauducco_chocolate_140g",
+            "img": "./img/cardapio/bolachas/bauducco_recheado_chocolate_140g.webp",
+            "name": "Recheado Bauducco Chocolate 140g",
+            "dsc": "Recheado Bauducco Chocolate 140g",
+            "price": 1.99
+        },
+        {
+            "id": "Recheado_Bauducco_morango_140g",
+            "img": "./img/cardapio/bolachas/bauducco_recheado_morango_140g.webp",
+            "name": "Recheado Bauducco Morango 140g",
+            "dsc": "Recheado Bauducco Morango 140g",
             "price": 1.99
         },
         {
