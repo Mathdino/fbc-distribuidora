@@ -5,7 +5,7 @@ var MENU = {
             "img": "./img/cardapio/bebidas/cocacola_2l.webp",
             "name": "Coca-cola 2L",
             "dsc": "Coca-cola 2L",
-            "price": 8.29
+            "price": 8.69
         },
         {
             "id": "Coca_cola_1-5L",
@@ -19,14 +19,14 @@ var MENU = {
             "img": "./img/cardapio/bebidas/cocacola_600ml.webp",
             "name": "Coca-cola 600ml",
             "dsc": "Coca-cola 600ml",
-            "price":  4.05
+            "price":  4.29
         },
         {
             "id": "Coca_cola_350ml",
             "img": "./img/cardapio/bebidas/cocacola_350ml.webp",
             "name": "Coca-cola 350ml",
             "dsc": "Coca-cola 350ml",
-            "price": 2.99
+            "price": 3.50
         },
         {
             "id": "Guaraviton_500ml",
@@ -433,7 +433,7 @@ var MENU = {
     "sobremesas": [
         {
             "id": "Miojo_Cup_Noodles_GalinhaCaipira_69g",
-            "img": "./img/cardapio/diversos/miojo_cup_noodles69g.webp",
+            "img": "./img/cardapio/diversos/miojo_cup_noodles69g.jpg",
             "name": "Miojo Cup Noodles Galinha Caipira 69g",
             "dsc": "Miojo Cup Noodles Galinha Caipira 69g",
             "price": 3.48
@@ -444,6 +444,20 @@ var MENU = {
             "name": "Miojo Nissin Galinha Caipira 85g",
             "dsc": "Miojo Nissin Galinha Caipira 85g",
             "price": 1.85
+        },
+        {
+            "id": "pipoca_clac_100g",
+            "img": "./img/cardapio/diversos/pipoca_clac_100g.webp",
+            "name": "Pipoca Clac 100g",
+            "dsc": "Pipoca Clac 100g",
+            "price": 3.59
+        },
+        {
+            "id": "pipoca_clac_50g",
+            "img": "./img/cardapio/diversos/pipoca_clac_50g.webp",
+            "name": "Pipoca Clac 50g",
+            "dsc": "Pipoca Clac 50g",
+            "price": 1.89
         }
     ],
     "bebidas": [
@@ -494,14 +508,14 @@ var MENU = {
             "img": "./img/cardapio/bolachas/viscont_recheado_chocolate125g.webp",
             "name": "Recheado Chocolate Visconti 125g",
             "dsc": "Recheado Chocolate Visconti 125g",
-            "price": 2.85
+            "price": 1.85
         },
         {
             "id": "Recheado_Morango_Visconti_125g",
             "img": "./img/cardapio/bolachas/viscont_recheado_morango125g.webp",
             "name": "Recheado Morango Visconti 125g",
             "dsc": "Recheado Morango Visconti 125g",
-            "price": 2.85
+            "price": 1.85
         },
         {
             "id": "ÁguaeSal_Triunfo_164g",
@@ -523,6 +537,20 @@ var MENU = {
             "name": "Maizena Triunfo 170g",
             "dsc": "Maizena Triunfo 170g",
             "price": 1.95
+        },
+        {
+            "id": "biscoito_cassini_salgado_100g",
+            "img": "./img/cardapio/bolachas/biscoito_cassini_salgado_100g.webp",
+            "name": "Biscoito Cassini Salgado 100g",
+            "dsc": "Biscoito Cassini Salgado 100g",
+            "price": 3.59
+        },
+        {
+            "id": "biscoito_cassini_salgado_200g",
+            "img": "./img/cardapio/bolachas/biscoito_cassini_salgado_200g.webp",
+            "name": "Biscoito Cassini Salgado 200g",
+            "dsc": "Biscoito Cassini Salgado 200g",
+            "price": 5.77
         }
     ],
     "pizzas": [
@@ -624,14 +652,14 @@ var MENU = {
             "img": "./img/cardapio/doces/sonho_valsa1kg.webp",
             "name": "Sonho de Valsa 1Kg",
             "dsc": "Sonho de Valsa 1Kg",
-            "price": 45.55
+            "price": 49.50
         },
         {
             "id": "Ouro_Branco_1Kg",
             "img": "./img/cardapio/doces/ouro_branco1kg.webp",
             "name": "Ouro Branco 1Kg",
             "dsc": "Ouro Branco 1Kg",
-            "price": 45.55
+            "price": 49.50
         },
         {
             "id": "Bala_7Belo_500g",
