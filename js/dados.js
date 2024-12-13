@@ -280,21 +280,21 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/amendoin_japones.webp",
             "name": "Amendoim Japonês 400g",
             "dsc": "Amendoim Japonês 400g",
-            "price": 5.99
+            "price": 6.26
         },
         {
             "id": "Amendoim_semPele_100",
             "img": "./img/cardapio/salgadinho/amendoin_sempele.webp",
             "name": "Amendoim Sem Pele 100g",
             "dsc": "Amendoim Sem Pele 100g",
-            "price": 5.99
+            "price": 6.26
         },
         {
             "id": "Ovinho_145",
             "img": "./img/cardapio/salgadinho/ovinho.webp",
             "name": "Ovinho 145g",
             "dsc": "Ovinho 145g",
-            "price": 5.99
+            "price": 6.26
         },
         {
             "id": "Amendoim_semPele_40",
@@ -436,14 +436,14 @@ var MENU = {
             "img": "./img/cardapio/diversos/miojo_cup_noodles69g.jpg",
             "name": "Miojo Cup Noodles Galinha Caipira 69g",
             "dsc": "Miojo Cup Noodles Galinha Caipira 69g",
-            "price": 3.48
+            "price": 4.15
         },
         {
             "id": "Miojo_Nissin_GalinhaCaipira_85g",
             "img": "./img/cardapio/diversos/miojo_nissin85g.webp",
             "name": "Miojo Nissin Galinha Caipira 85g",
             "dsc": "Miojo Nissin Galinha Caipira 85g",
-            "price": 1.85
+            "price": 2.20
         },
         {
             "id": "pipoca_clac_100g",
