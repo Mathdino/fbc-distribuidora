@@ -189,14 +189,14 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/lays_original35.webp",
             "name": "Lays Original 35g",
             "dsc": "Lays Original 35g",
-            "price": 3.62
+            "price": 3.82
         },
         {
             "id": "Lays_Cebola_35",
             "img": "./img/cardapio/salgadinho/lays_cebola35.jpg",
             "name": "Lays Cebola 35g",
             "dsc": "Lays Cebola 35g",
-            "price": 3.62
+            "price": 3.82
         },
         {
             "id": "Cheetos_requeijão_105",
@@ -252,28 +252,28 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/cebolitos91.webp",
             "name": "Cebolitos 91g",
             "dsc": "Cebolitos 91g",
-            "price": 6.99
+            "price": 7.30
         },
         {
             "id": "Cebolitos_34",
             "img": "./img/cardapio/salgadinho/cebolitos34.jpg",
             "name": "Cebolitos 34g",
             "dsc": "Cebolitos 34g",
-            "price": 2.92
+            "price": 3.11
         },
         {
             "id": "Baconzitos_86",
             "img": "./img/cardapio/salgadinho/baconzitos86.webp",
             "name": "Baconzitos 86g",
             "dsc": "Baconzitos 86g",
-            "price": 6.99
+            "price": 7.30
         },
         {
             "id": "Baconzitos_34",
             "img": "./img/cardapio/salgadinho/baconzitos34.webp",
             "name": "Baconzitos 34g",
             "dsc": "Baconzitos 34g",
-            "price": 2.92
+            "price": 3.11
         },
         {
             "id": "Amendoim_japonês_400",
@@ -311,20 +311,6 @@ var MENU = {
             "price": 2.85
         },
         {
-            "id": "Pringles_Original_104",
-            "img": "./img/cardapio/salgadinho/pringes_original.jpg",
-            "name": "Pringles Original 104g",
-            "dsc": "Pringles Original 104g",
-            "price": 8.49
-        },
-        {
-            "id": "Pringles_Cebola_104",
-            "img": "./img/cardapio/salgadinho/pringes_cebola.jpg",
-            "name": "Pringles Cebola 104g",
-            "dsc": "Pringles Cebola 104g",
-            "price": 8.49
-        },
-        {
             "id": "Pringles_Queijo_104",
             "img": "./img/cardapio/salgadinho/pringes_queijo.jpg",
             "name": "Pringles Queijo 104g",
@@ -336,13 +322,6 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/pringes_churrasco.jpg",
             "name": "Pringles Churrasco 104g",
             "dsc": "Pringles Churrasco 104g",
-            "price": 8.49
-        },
-        {
-            "id": "Pringles_Cheedar_e_Bacon_104",
-            "img": "./img/cardapio/salgadinho/pringes_cheedarbacon.jpg",
-            "name": "Pringles Cheedar e Bacon 104g",
-            "dsc": "Pringles Cheedar e Bacon 104g",
             "price": 8.49
         },
         {
