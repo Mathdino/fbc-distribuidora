@@ -378,35 +378,35 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/fofura_cebola_60g.webp",
             "name": "Fofura Cebola 60g c/10un",
             "dsc": "Fofura Cebola 60g",
-            "price": 18.90
+            "price": 19.90
         },
         {
             "id": "Fofura_churrasco_60",
             "img": "./img/cardapio/salgadinho/fofura_churrasco_60g.webp",
             "name": "Fofura Churrasco 60g c/10un",
             "dsc": "Fofura Churrasco 60g",
-            "price": 18.90
+            "price": 19.90
         },
         {
             "id": "Fofura_queijo_60",
             "img": "./img/cardapio/salgadinho/fofura_queijo_60g.webp",
             "name": "Fofura Queijo 60g c/10un",
             "dsc": "Fofura Queijo 60g",
-            "price": 18.90
+            "price": 19.90
         },
         {
             "id": "Fofura_requeijão_60",
             "img": "./img/cardapio/salgadinho/fofura_requeijao_60g.webp",
             "name": "Fofura Requeijão 60g c/10un",
             "dsc": "Fofura Requeijão 60g",
-            "price": 18.90
+            "price": 19.90
         },
         {
             "id": "Fofura_presunto_60",
             "img": "./img/cardapio/salgadinho/fofura_presunto_60g.webp",
             "name": "Fofura Presunto 60g c/10un",
             "dsc": "Fofura Presunto 60g",
-            "price": 18.90
+            "price": 19.90
         }
     ],
     "sobremesas": [
