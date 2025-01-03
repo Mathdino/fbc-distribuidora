@@ -297,7 +297,7 @@ var MENU = {
             "price": 3.11
         },
         {
-            "id": "Amendoim_japonês_145",
+            "id": "amendoim_japones_145",
             "img": "./img/cardapio/salgadinho/amendoim_japones_145g.webp",
             "name": "Amendoim Japonês 145g",
             "dsc": "Amendoim Japonês 145g",
