@@ -126,14 +126,14 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/fandangos_presunto.webp",
             "name": "Fandangos Presunto 105g",
             "dsc": "Fandangos Presunto 105",
-            "price": 6.26
+            "price": 6.96
         },
         {
             "id": "Fandangos_queijo_105",
             "img": "./img/cardapio/salgadinho/fandangos_queijo.webp",
             "name": "Fandangos Queijo 105g",
             "dsc": "Fandangos Queijo 105",
-            "price": 6.26
+            "price": 6.96
         },
         {
             "id": "Fandangos_presunto_37g",
@@ -297,7 +297,7 @@ var MENU = {
             "price": 3.11
         },
         {
-            "id": "amendoim_japones_145",
+            "id": "amendoim_japonees_145",
             "img": "./img/cardapio/salgadinho/amendoim_japones_145g.webp",
             "name": "Amendoim Japonês 145g",
             "dsc": "Amendoim Japonês 145g",
