@@ -40,7 +40,14 @@ var MENU = {
             "img": "./img/cardapio/bebidas/toddynho_200ml.webp",
             "name": "Toddynho 200ml c/27un ",
             "dsc": "Toddynho 200ml c/27un",
-            "price": 63.45
+            "price": 84.51
+        },
+        {
+            "id": "toddynho_levinho_200ml",
+            "img": "./img/cardapio/bebidas/toddynho_levinho_200ml.webp",
+            "name": "Toddynho Levinho 200ml c/27un ",
+            "dsc": "Toddynho Levinho 200ml c/27un",
+            "price": 84.51
         },
         {
             "id": "kero_coco_200ml",
@@ -55,6 +62,13 @@ var MENU = {
             "name": "Kero Coco 330ml c/12un ",
             "dsc": "Kero Coco 330ml c/12un",
             "price": 84.60
+        },
+        {
+            "id": "kero_coco_1l",
+            "img": "./img/cardapio/bebidas/kero_coco_1l.webp",
+            "name": "Kero Coco 1L c/12un ",
+            "dsc": "Kero Coco 1L c/12un",
+            "price": 190.44
         }
     ],
     "burgers": [
@@ -63,49 +77,49 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/ruffles_original.webp",
             "name": "Ruffles Original 76g",
             "dsc": "Ruffles original 76g",
-            "price": 6.99
+            "price": 7.76
         },
         {
             "id": "ruffles_cebola_76",
             "img": "./img/cardapio/salgadinho/ruffles_cebola.webp",
             "name": "Ruffles Cebola 76g",
             "dsc": "Ruffles cebola 76g",
-            "price": 6.99
+            "price": 7.76
         },
         {
             "id": "ruffles_churrasco_76",
             "img": "./img/cardapio/salgadinho/ruffles_churrasco.webp",
             "name": "Ruffles Churrasco 76g",
             "dsc": "Ruffles churrasco 76g",
-            "price": 6.99
+            "price": 7.76
         },
         {
             "id": "ruffles_original_115",
             "img": "./img/cardapio/salgadinho/ruffles_original115.webp",
             "name": "Ruffles Original 115g",
             "dsc": "Ruffles Original 115g",
-            "price": 10.49
+            "price": 11.70
         },
         {
             "id": "ruffles_original_32",
             "img": "./img/cardapio/salgadinho/ruffles_original_32g.webp",
             "name": "Ruffles Original 32g",
             "dsc": "Ruffles Original 32g",
-            "price": 2.92
+            "price": 3.07
         },
         {
             "id": "ruffles_churrasco_32",
             "img": "./img/cardapio/salgadinho/ruffles_churrasco_32g.webp",
             "name": "Ruffles Churrasco 32g",
             "dsc": "Ruffles Churrasco 32g",
-            "price": 2.92
+            "price": 3.07
         },
         {
             "id": "ruffles_cebola_32",
             "img": "./img/cardapio/salgadinho/ruffles_cebola_32g.webp",
             "name": "Ruffles Cebola 32g",
             "dsc": "Ruffles Cebola 32g",
-            "price": 2.92
+            "price": 3.07
         },
         {
             "id": "Fandangos_presunto_105",
@@ -140,49 +154,56 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/doritos37.jpg",
             "name": "Doritos 37g",
             "dsc": "Doritos 37g",
-            "price": 3.62
+            "price": 3.81
         },
         {
             "id": "Doritos_75",
             "img": "./img/cardapio/salgadinho/doritos75.webp",
             "name": "Doritos 75g",
             "dsc": "Doritos 75g",
-            "price": 6.99
+            "price": 7.80
         },
         {
             "id": "Doritos_120",
             "img": "./img/cardapio/salgadinho/doritos120.webp",
             "name": "Doritos 120g",
             "dsc": "Doritos 120g",
-            "price": 10.49
+            "price": 11.68
+        },
+        {
+            "id": "doritos_210g",
+            "img": "./img/cardapio/salgadinho/doritos_210g.webp",
+            "name": "Doritos 210g",
+            "dsc": "Doritos 210g",
+            "price": 15.53
         },
         {
             "id": "Lays_original_70",
             "img": "./img/cardapio/salgadinho/lays_original.webp",
             "name": "Lays Original 70g",
             "dsc": "Lays Original 70g",
-            "price": 6.99
+            "price": 7.77
         },
         {
             "id": "Lays_Cebola_70",
             "img": "./img/cardapio/salgadinho/lays_cebola.webp",
             "name": "Lays Cebola 70g",
             "dsc": "Lays Cebola 70g",
-            "price": 6.99
+            "price": 7.77
         },
         {
             "id": "Lays_sensacão_frango_grelhado_40",
             "img": "./img/cardapio/salgadinho/lays_sensacao_frangogrelhado.png",
             "name": "Sensacão Frango Grelhado 40g",
             "dsc": "Sensacão Frango Grelhado 40g",
-            "price": 4.42
+            "price": 4.62
         },
         {
             "id": "Lays_sensacão_peitodeperu_40",
             "img": "./img/cardapio/salgadinho/lays_sensacao_peitodeperu.webp",
             "name": "Sensacão Peito de Peru 40g",
             "dsc": "Sensacão Peito de Peru 40g",
-            "price": 4.42
+            "price": 4.62
         },
         {
             "id": "Lays_original_35",
@@ -203,56 +224,56 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/cheetos_requeijao.webp",
             "name": "Cheetos Requeijão 105g",
             "dsc": "Cheetos Requeijão 105g",
-            "price": 6.26
+            "price": 6.96
         },
         {
             "id": "Cheetos_Lua_95",
             "img": "./img/cardapio/salgadinho/cheetos_lua.webp",
             "name": "Cheetos Lua 95g",
             "dsc": "Cheetos Lua 95g",
-            "price": 6.26
+            "price": 6.96
         },
         {
             "id": "Cheetos_Mix_82",
             "img": "./img/cardapio/salgadinho/cheetos_mix.jpg",
             "name": "Cheetos Mix 82g",
             "dsc": "Cheetos Mix 82g",
-            "price": 6.26
+            "price": 6.96
         },
         {
             "id": "Cheetos_bolaqueijo_37g",
             "img": "./img/cardapio/salgadinho/cheetos_bolaqueijo_37g.webp",
             "name": "Cheetos Bola Queijo Suíço 37g",
             "dsc": "Cheetos Bola Queijo Suíço 37g",
-            "price": 2.49
+            "price": 2.68
         },
         {
             "id": "Cheetos_luaparmesao_40g",
             "img": "./img/cardapio/salgadinho/cheetos_luaparmesao_40g.webp",
             "name": "Cheetos Lua Parmesão 40g",
             "dsc": "Cheetos Lua Parmesão 40g",
-            "price": 2.49
+            "price": 2.68
         },
         {
             "id": "Cheetos_ondarequeijao_45g",
             "img": "./img/cardapio/salgadinho/cheetos_ondarequeijao_45g.webp",
             "name": "Cheetos Requeijão 45g",
             "dsc": "Cheetos Requeijão 45g",
-            "price": 2.49
+            "price": 2.68
         },
         {
             "id": "Cheetos_mix_41g",
             "img": "./img/cardapio/salgadinho/cheetos_mix_41g.webp",
             "name": "Cheetos Mix 41g",
             "dsc": "Cheetos Mix 41g",
-            "price": 2.49
+            "price": 2.68
         },
         {
             "id": "Cebolitos_91",
             "img": "./img/cardapio/salgadinho/cebolitos91.webp",
             "name": "Cebolitos 91g",
             "dsc": "Cebolitos 91g",
-            "price": 7.30
+            "price": 7.80
         },
         {
             "id": "Cebolitos_34",
@@ -266,7 +287,7 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/baconzitos86.webp",
             "name": "Baconzitos 86g",
             "dsc": "Baconzitos 86g",
-            "price": 7.30
+            "price": 7.77
         },
         {
             "id": "Baconzitos_34",
@@ -276,25 +297,25 @@ var MENU = {
             "price": 3.11
         },
         {
-            "id": "Amendoim_japonês_400",
-            "img": "./img/cardapio/salgadinho/amendoin_japones.webp",
-            "name": "Amendoim Japonês 400g",
-            "dsc": "Amendoim Japonês 400g",
-            "price": 6.26
+            "id": "Amendoim_japonês_145",
+            "img": "./img/cardapio/salgadinho/amendoim_japones_145g.webp",
+            "name": "Amendoim Japonês 145g",
+            "dsc": "Amendoim Japonês 145g",
+            "price": 6.62
         },
         {
             "id": "Amendoim_semPele_100",
             "img": "./img/cardapio/salgadinho/amendoin_sempele.webp",
             "name": "Amendoim Sem Pele 100g",
             "dsc": "Amendoim Sem Pele 100g",
-            "price": 6.26
+            "price": 6.62
         },
         {
             "id": "Ovinho_145",
             "img": "./img/cardapio/salgadinho/ovinho.webp",
             "name": "Ovinho 145g",
             "dsc": "Ovinho 145g",
-            "price": 6.26
+            "price": 6.62
         },
         {
             "id": "Amendoim_semPele_40",
@@ -308,7 +329,49 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/ovinho_65g.webp",
             "name": "Ovinho 65g",
             "dsc": "Ovinho 65g",
-            "price": 2.85
+            "price": 3.11
+        },
+        {
+            "id": "pingo_douro_bacon_30g",
+            "img": "./img/cardapio/salgadinho/pingo_douro_bacon_30g.webp",
+            "name": "Pingo D'Ouro Bacon 30g",
+            "dsc": "Pingo D'Ouro Bacon 30g",
+            "price": 1.52
+        },
+        {
+            "id": "pingo_douro_bacon_76g",
+            "img": "./img/cardapio/salgadinho/pingo_douro_bacon_76g.webp",
+            "name": "Pingo D'Ouro Bacon 76g",
+            "dsc": "Pingo D'Ouro Bacon 76g",
+            "price": 3.90
+        },
+        {
+            "id": "stiksy_30g",
+            "img": "./img/cardapio/salgadinho/stiksy_30g.webp",
+            "name": "Stiksy 30g",
+            "dsc": "Stiksy 30g",
+            "price": 1.52
+        },
+        {
+            "id": "stiksy_76g",
+            "img": "./img/cardapio/salgadinho/stiksy_76g.webp",
+            "name": "Stiksy 76g",
+            "dsc": "Stiksy 76g",
+            "price": 3.90
+        },
+        {
+            "id": "ruffles_tubo_original_100g",
+            "img": "./img/cardapio/salgadinho/ruffles_tubo_original_100g.webp",
+            "name": "Ruffles Tubo Original 100g",
+            "dsc": "Ruffles Tubo Original 100g",
+            "price": 8.99
+        },
+        {
+            "id": "ruffles_tubo_sourcream_100g",
+            "img": "./img/cardapio/salgadinho/ruffles_tubo_sourcream_100g.webp",
+            "name": "Ruffles Tubo Sour Cream 100g",
+            "dsc": "Ruffles Tubo Sour Cream 100g",
+            "price": 8.99
         },
         {
             "id": "Pringles_Queijo_104",
@@ -336,7 +399,7 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/torcida_pimenta_mexicana60.webp",
             "name": "Torcida Pimenta Mexicana 60g",
             "dsc": "Torcida Pimenta Mexicana 60g",
-            "price": 1.85
+            "price": 2.23
         },
         {
             "id": "Torcida_Cebola_60",
@@ -350,7 +413,7 @@ var MENU = {
             "img": "./img/cardapio/salgadinho/torcida_queijo60.webp",
             "name": "Torcida Queijo 60g",
             "dsc": "Torcida Queijo 60g",
-            "price": 1.85
+            "price": 2.23
         },
         {
             "id": "Torcida_CamarãocomPimenta_60",
