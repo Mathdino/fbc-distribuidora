@@ -375,7 +375,7 @@ var MENU = {
         },
         {
             "id": "Pringles_cebola_104",
-            "img": "./img/cardapio/salgadinho/pringes_Cebola.jpg",
+            "img": "./img/cardapio/salgadinho/pringes_cebola.jpg",
             "name": "Pringles Cebola 104g cx/18un",
             "dsc": "Pringles Cebola 104g cx/18un",
             "price": 152.82
@@ -504,11 +504,165 @@ var MENU = {
     ],
     "bebidas": [
         {
-            "id": "Cookies_Nestle_40g",
+            "id": "Cookies_Nestle_60g",
             "img": "./img/cardapio/bolachas/cookies_nestle_60g.webp",
-            "name": "Cookies Nestlé 40g",
-            "dsc": "Cookies Nestlé 40g",
+            "name": "Cookies Nestlé 60g",
+            "dsc": "Cookies Nestlé 60g",
             "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_prestigio_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_prestigio_60g.webp",
+            "name": "Cookies Nestlé Prestígio 60g",
+            "dsc": "Cookies Nestlé Prestígio 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_alpino_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_alpino_60g.webp",
+            "name": "Cookies Nestlé Alpino 60g",
+            "dsc": "Cookies Nestlé Alpino 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_galak_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_galak_60g.webp",
+            "name": "Cookies Nestlé Galak 60g",
+            "dsc": "Cookies Nestlé Galak 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_nescau_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_nescau_60g.webp",
+            "name": "Cookies Nestlé Nescau 60g",
+            "dsc": "Cookies Nestlé Nescau 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_negresco_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_negresco_60g.webp",
+            "name": "Cookies Nestlé Negresco 60g",
+            "dsc": "Cookies Nestlé Negresco 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_nestle_passatempo_60g",
+            "img": "./img/cardapio/bolachas/cookies_nestle_passatempo_60g.webp",
+            "name": "Cookies Nestlé Passatempo 60g",
+            "dsc": "Cookies Nestlé Passatempo 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_garoto_crocante_60g",
+            "img": "./img/cardapio/bolachas/cookies_garoto_crocante_60g.jpg",
+            "name": "Cookies Garoto Crocante 60g",
+            "dsc": "Cookies Garoto Crocante 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_garoto_caribe_60g",
+            "img": "./img/cardapio/bolachas/cookies_garoto_caribe_60g.png",
+            "name": "Cookies Garoto Caribe 60g",
+            "dsc": "Cookies Garoto Caribe 60g",
+            "price": 2.10
+        },
+        {
+            "id": "biscoito_bono_chocolate_90g",
+            "img": "./img/cardapio/bolachas/biscoito_bono_chocolate_90g.webp",
+            "name": "Bolacha Bono Chocolate 90g",
+            "dsc": "Bolacha Bono Chocolate 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_bono_morango_90g",
+            "img": "./img/cardapio/bolachas/biscoito_bono_morango_90g.webp",
+            "name": "Bolacha Bono Morango 90g",
+            "dsc": "Bolacha Bono Morango 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_bono_limao_90g",
+            "img": "./img/cardapio/bolachas/biscoito_bono_limao_90g.webp",
+            "name": "Bolacha Bono Limão 90g",
+            "dsc": "Bolacha Bono Limão 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_bono_docedeleite_90g",
+            "img": "./img/cardapio/bolachas/biscoito_bono_docedeleite_90g.webp",
+            "name": "Bolacha Bono Doce de Leite 90g",
+            "dsc": "Bolacha Bono Doce de Leite 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_negresco_90g",
+            "img": "./img/cardapio/bolachas/biscoito_negresco_90g.webp",
+            "name": "Bolacha Negresco 90g",
+            "dsc": "Bolacha Negresco 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_negresco_eclipse_90g",
+            "img": "./img/cardapio/bolachas/biscoito_negresco_eclipse_90g.jpg",
+            "name": "Bolacha Negresco Eclipse 90g",
+            "dsc": "Bolacha Negresco Eclipse 90g",
+            "price": 2.38
+        },
+        {
+            "id": "biscoito_passatempo_130g",
+            "img": "./img/cardapio/bolachas/biscoito_passatempo_130g.jpeg",
+            "name": "Bolacha Passatempo 130g",
+            "dsc": "Bolacha Passatempo 130g",
+            "price": 2.26
+        },
+        {
+            "id": "wafer_bono_chocolate_110g",
+            "img": "./img/cardapio/bolachas/wafer_bono_chocolate_110g.webp",
+            "name": "Wafer Bono Chocolate 110g",
+            "dsc": "Wafer Bono Chocolate 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_bono_morango_110g",
+            "img": "./img/cardapio/bolachas/wafer_bono_morango_110g.webp",
+            "name": "Wafer Bono Morango 110g",
+            "dsc": "Wafer Bono Morango 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_bono_limao_110g",
+            "img": "./img/cardapio/bolachas/wafer_bono_limao_110g.webp",
+            "name": "Wafer Bono Limão 110g",
+            "dsc": "Wafer Bono Limão 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_nescau_110g",
+            "img": "./img/cardapio/bolachas/wafer_nescau_110g.jfif",
+            "name": "Wafer Nescau 110g",
+            "dsc": "Wafer Nescau 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_galak_110g",
+            "img": "./img/cardapio/bolachas/wafer_galak_110g.webp",
+            "name": "Wafer Galak 110g",
+            "dsc": "Wafer Galak 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_prestigio_110g",
+            "img": "./img/cardapio/bolachas/wafer_prestigio_110g.webp",
+            "name": "Wafer Prestígio 110g",
+            "dsc": "Wafer Prestígio 110g",
+            "price": 3.10
+        },
+        {
+            "id": "wafer_negresco_110g",
+            "img": "./img/cardapio/bolachas/wafer_negresco_110g.jpeg",
+            "name": "Wafer Negresco 110g",
+            "dsc": "Wafer Negresco 110g",
+            "price": 3.10
         },
         /*{
             "id": "Wafer_chocolate_bauducco_140g",
@@ -592,7 +746,7 @@ var MENU = {
             "img": "./img/cardapio/bolachas/biscoito_cassini_salgado_100g.webp",
             "name": "Biscoito Cassini Salgado 100g",
             "dsc": "Biscoito Cassini Salgado 100g",
-            "price": 3.59
+            "price": 3.87
         },
         {
             "id": "biscoito_cassini_salgado_200g",
@@ -607,20 +761,6 @@ var MENU = {
             "name": "Bolacha Tucs Sabores 100g",
             "dsc": "Bolacha Tucs Sabores 100g",
             "price": 1.60
-        },
-        {
-            "id": "cookies_geral_nestle_60g",
-            "img": "./img/cardapio/bolachas/cookies_geral_nestle_60g.jpg",
-            "name": "Cookies Nestle 60g",
-            "dsc": "Cookies Nestle 60g",
-            "price": 2.10
-        },
-        {
-            "id": "cookies_garoto_60g",
-            "img": "./img/cardapio/bolachas/cookies_garoto_60g.jpg",
-            "name": "Cookies Garoto 60g",
-            "dsc": "Cookies Garoto 60g",
-            "price": 2.10
         }
     ],
     "pizzas": [
@@ -736,7 +876,35 @@ var MENU = {
             "img": "./img/cardapio/doces/bala_7belo500g.webp",
             "name": "Bala 7Belo 500g",
             "dsc": "Bala 7Belo 500g",
-            "price": 8.49
+            "price": 8.95
+        },
+        {
+            "id": "bala_yogurte_600g",
+            "img": "./img/cardapio/doces/bala_yogurte_600g.webp",
+            "name": "Bala Yogurte 600g",
+            "dsc": "Bala Yogurte 600g",
+            "price": 7.78
+        },
+        {
+            "id": "kit_kat_41,5g",
+            "img": "./img/cardapio/doces/kit_kat_41,5g.webp",
+            "name": "Kit Kat 41,5g c/24un ",
+            "dsc": "Kit Kat 41,5g c/24un ",
+            "price": 63.36
+        },
+        {
+            "id": "kit_kat_dark_41,5g",
+            "img": "./img/cardapio/doces/kit_kat_dark_41,5g.png",
+            "name": "Kit Kat Dark 41,5g c/24un ",
+            "dsc": "Kit Kat Dark 41,5g c/24un ",
+            "price": 63.36
+        },
+        {
+            "id": "kit_kat_white_41,5g",
+            "img": "./img/cardapio/doces/kit_kat_white_41,5g.webp",
+            "name": "Kit Kat White 41,5g c/24un ",
+            "dsc": "Kit Kat White 41,5g c/24un ",
+            "price": 63.36
         },
         {
             "id": "Bala_Poosh_500g",
