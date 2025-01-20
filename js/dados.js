@@ -374,18 +374,18 @@ var MENU = {
             "price": 8.99
         },
         {
-            "id": "Pringles_Queijo_104",
-            "img": "./img/cardapio/salgadinho/pringes_queijo.jpg",
-            "name": "Pringles Queijo 104g",
-            "dsc": "Pringles Queijo 104g",
-            "price": 8.49
+            "id": "Pringles_cebola_104",
+            "img": "./img/cardapio/salgadinho/pringes_Cebola.jpg",
+            "name": "Pringles Cebola 104g cx/18un",
+            "dsc": "Pringles Cebola 104g cx/18un",
+            "price": 152.82
         },
         {
-            "id": "Pringles_Churrasco_104",
-            "img": "./img/cardapio/salgadinho/pringes_churrasco.jpg",
-            "name": "Pringles Churrasco 104g",
-            "dsc": "Pringles Churrasco 104g",
-            "price": 8.49
+            "id": "Pringles_original_104",
+            "img": "./img/cardapio/salgadinho/pringes_original.jpg",
+            "name": "Pringles Original 104g cx/18un",
+            "dsc": "Pringles Original 104g cx/18un",
+            "price": 152.82
         },
         {
             "id": "Torcida_Churrasco_60",
@@ -508,9 +508,9 @@ var MENU = {
             "img": "./img/cardapio/bolachas/cookies_nestle_60g.webp",
             "name": "Cookies Nestlé 40g",
             "dsc": "Cookies Nestlé 40g",
-            "price": 1.99
+            "price": 2.10
         },
-        {
+        /*{
             "id": "Wafer_chocolate_bauducco_140g",
             "img": "./img/cardapio/bolachas/bauducco_wafer_chocolate140g.webp",
             "name": "Wafer Chocolate Bauducco 140g",
@@ -565,27 +565,27 @@ var MENU = {
             "name": "Recheado Morango Visconti 125g",
             "dsc": "Recheado Morango Visconti 125g",
             "price": 1.85
-        },
+        },*/
         {
             "id": "ÁguaeSal_Triunfo_164g",
             "img": "./img/cardapio/bolachas/triunfo_aguaesal_164g.webp",
-            "name": "Água e Sal Triunfo 164g",
-            "dsc": "Água e Sal Triunfo 164g",
-            "price": 1.95
+            "name": "Água e Sal Triunfo 164g ",
+            "dsc": "Água e Sal Triunfo 164g ",
+            "price": 2.15
         },
         {
             "id": "CreamCracker_Triunfo_164g",
             "img": "./img/cardapio/bolachas/triunfo_cream_cracker_164g.webp",
             "name": "Cream Cracker Triunfo 164g",
             "dsc": "Cream Cracker Triunfo 164g",
-            "price": 1.95
+            "price": 2.15
         },
         {
             "id": "Maizena_Triunfo_170g",
             "img": "./img/cardapio/bolachas/triunfo_maizena_170g.webp",
             "name": "Maizena Triunfo 170g",
             "dsc": "Maizena Triunfo 170g",
-            "price": 1.95
+            "price": 2.15
         },
         {
             "id": "biscoito_cassini_salgado_100g",
@@ -600,6 +600,27 @@ var MENU = {
             "name": "Biscoito Cassini Salgado 200g",
             "dsc": "Biscoito Cassini Salgado 200g",
             "price": 5.77
+        },
+        {
+            "id": "tucs_100g",
+            "img": "./img/cardapio/bolachas/tucs_100g.webp",
+            "name": "Bolacha Tucs Sabores 100g",
+            "dsc": "Bolacha Tucs Sabores 100g",
+            "price": 1.60
+        },
+        {
+            "id": "cookies_geral_nestle_60g",
+            "img": "./img/cardapio/bolachas/cookies_geral_nestle_60g.jpg",
+            "name": "Cookies Nestle 60g",
+            "dsc": "Cookies Nestle 60g",
+            "price": 2.10
+        },
+        {
+            "id": "cookies_garoto_60g",
+            "img": "./img/cardapio/bolachas/cookies_garoto_60g.jpg",
+            "name": "Cookies Garoto 60g",
+            "dsc": "Cookies Garoto 60g",
+            "price": 2.10
         }
     ],
     "pizzas": [
