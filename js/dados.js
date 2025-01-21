@@ -473,7 +473,7 @@ var MENU = {
         }
     ],
     "sobremesas": [
-        {
+        /*{
             "id": "Miojo_Cup_Noodles_GalinhaCaipira_69g",
             "img": "./img/cardapio/diversos/miojo_cup_noodles69g.jpg",
             "name": "Miojo Cup Noodles Galinha Caipira 69g",
@@ -500,7 +500,7 @@ var MENU = {
             "name": "Pipoca Clac 50g",
             "dsc": "Pipoca Clac 50g",
             "price": 1.89
-        }
+        }*/
     ],
     "bebidas": [
         {
@@ -920,7 +920,7 @@ var MENU = {
             "dsc": "Pirulito Bruxilito 500g",
             "price": 10.89
         },
-        {
+        /*{
             "id": "Kinder_Ovo_c12",
             "img": "./img/cardapio/doces/kinder_ovocx12.webp",
             "name": "Kinder Ovo c/12un",
@@ -933,6 +933,6 @@ var MENU = {
             "name": "Mentos c/16un",
             "dsc": "Mentos c/16un",
             "price": 27.05
-        }
+        }*/
     ]
 }
