@@ -33,7 +33,7 @@ var MENU = {
             "img": "./img/cardapio/bebidas/guaraviton_500ml.avif",
             "name": "Guaraviton 500ml",
             "dsc": "Guaraviton 500ml",
-            "price": 1.99
+            "price": 2.10
         },
         {
             "id": "toddynho_200ml",
@@ -769,14 +769,14 @@ var MENU = {
             "img": "./img/cardapio/energeticos/redbull.webp",
             "name": "RedBull",
             "dsc": "Energético RedBull",
-            "price": 7.66
+            "price": 8.30
         },
         {
             "id": "Energético_RedBull_Sem_Açucar",
             "img": "./img/cardapio/energeticos/redbull_semacucar.jpg",
             "name": "RedBull Sem Açucar",
             "dsc": "Energético RedBull Sem Açucar",
-            "price": 7.66
+            "price": 8.30
         },
         {
             "id": "Monster_Juice_MangoLoco_473ml",
@@ -906,13 +906,13 @@ var MENU = {
             "dsc": "Kit Kat White 41,5g c/24un ",
             "price": 63.36
         },
-        {
+        /*{
             "id": "Bala_Poosh_500g",
             "img": "./img/cardapio/doces/bala_poosh500g.webp",
             "name": "Bala Poosh 500g",
             "dsc": "Bala Poosh 500g",
             "price": 8.49
-        },
+        },*/
         {
             "id": "Pirulito_Bruxilito_500g",
             "img": "./img/cardapio/doces/pirulito_bruxilito500g.png",
